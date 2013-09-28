@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
+gem 'rake'
 gem 'guard'
 gem 'guard-coffeescript'
 gem 'guard-markdown'
 gem 'foreman'
+gem 'gist'
