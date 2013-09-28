@@ -27,6 +27,8 @@ GEM
     guard-markdown (0.2.0)
       guard (>= 0.2.2)
       kramdown (~> 0.13.3)
+    haml (4.0.3)
+      tilt
     json (1.8.0)
     kramdown (0.13.8)
     listen (1.3.1)
@@ -47,6 +49,7 @@ GEM
       ffi (>= 0.5.0)
     slop (3.4.6)
     thor (0.18.1)
+    tilt (1.4.1)
 
 PLATFORMS
   ruby
@@ -57,4 +60,5 @@ DEPENDENCIES
   guard
   guard-coffeescript
   guard-markdown
+  haml
   rake

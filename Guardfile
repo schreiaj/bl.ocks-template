@@ -3,5 +3,5 @@ guard :coffeescript do
 end
 
 guard :coffeescript do
-  watch(%r(.*\.md)){|m| `md2html -c #{m[0]} > #{m[0].gsub("md","html")}`}
+  watch(%r(.*\.haml)){|m| `bundle exec haml  #{m[0]} > #{m[0].gsub("haml","html")}`}
 end
